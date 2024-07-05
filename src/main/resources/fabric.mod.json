@@ -2,35 +2,28 @@
 	"schemaVersion": 1,
 	"id": "tutorialmod",
 	"version": "${version}",
-	"name": "TutorialMod",
-	"description": "A tutorial mod for Fabric",
+	"name": "tutorialmod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"XiaoMo"
+		"Me!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/Xiaomo3250/tutorialmod-template-1.21"
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/tutorialmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.xiaomo.tutorialmod.TutorialMod"
-		],
-		"client": [
-			"com.xiaomo.tutorialmod.TutorialModClient"
+			"com.xiaomo.tutorialmod.Tutorialmod"
 		],
 		"fabric-datagen": [
-			"com.xiaomo.tutorialmod.TutorialModDataGenerator"
+			"com.xiaomo.tutorialmod.TutorialmodDataGenerator"
 		]
 	},
 	"mixins": [
-		"tutorialmod.mixins.json",
-		{
-			"config": "tutorialmod.client.mixins.json",
-			"environment": "client"
-		}
+		"tutorialmod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
