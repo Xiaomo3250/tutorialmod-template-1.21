@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.xiaomo.tutorialmod.Tutorialmod"
+          "com.xiaomo.tutorialmod.Tutorialmod_item"
 		],
 		"fabric-datagen": [
 			"com.xiaomo.tutorialmod.TutorialmodDataGenerator"
